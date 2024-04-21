@@ -1572,7 +1572,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 198.12 83.82 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1325a808-2258-457a-bac8-d2990a2c2f31)
     (property "Reference" "SW2" (at 198.12 76.2 0)
       (effects (font (size 1.27 1.27)))
@@ -1953,7 +1953,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 220.98 81.28 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65830ab1-e644-4fd1-87df-7b17e612055b)
     (property "Reference" "SW3" (at 220.98 73.66 0)
       (effects (font (size 1.27 1.27)))
@@ -2195,7 +2195,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 170.18 83.82 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87e9de80-764a-43e3-b463-ec71c5f78cce)
     (property "Reference" "SW1" (at 170.18 76.2 0)
       (effects (font (size 1.27 1.27)))
@@ -2271,7 +2271,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 40.64 190.5 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 96cf67a2-2cf8-4042-95be-991b9d0d83a9)
     (property "Reference" "H2" (at 43.18 189.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2279,7 +2279,7 @@
     (property "Value" "ISO_STAB" (at 43.18 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_ISO" (at 40.64 190.5 0)
+    (property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_ISO-ROT" (at 40.64 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 190.5 0)
