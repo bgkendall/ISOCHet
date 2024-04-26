@@ -513,7 +513,7 @@
     (pad "S1" thru_hole oval (at 4.32 0.6 180) (size 1.35 2.85) (drill oval 0.75 1.65) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (solder_mask_margin 0.102) (thermal_bridge_width 0.75) (tstamp 078c6f3b-cfd4-410b-97f1-40c01e138ca6))
     (model "${KIPRJMOD}/Library/GSB1C211110DS1HR.step"
-      (offset (xyz 46.4 26.8 2.8))
+      (offset (xyz 46.4 26.8 2.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 0))
     )
