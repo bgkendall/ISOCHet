@@ -457,7 +457,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "VBUS|VCC|.3V3|GND"
+        "pattern": "VBUS|GND"
       }
     ]
   },
