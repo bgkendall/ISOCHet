@@ -6,7 +6,7 @@
     (property "Value" "~" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" (at 0 -3.81 0)
+    (property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 -12.7 0)
@@ -19,7 +19,7 @@
       )
     )
     (symbol "MCU_CM552E_MSOP-10_1_1"
-      (text "CH552G\n" (at 0 11.176 0)
+      (text "CH552E" (at 0 11.176 0)
         (effects (font (size 1.27 1.27)))
       )
       (pin input line (at -11.176 8.89 0) (length 2.54)
