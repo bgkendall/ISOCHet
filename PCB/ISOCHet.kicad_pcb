@@ -260,7 +260,7 @@
     (descr "6-pin SOT-23 package, Handsoldering")
     (tags "SOT-23-6 Handsoldering")
     (property "DigiKey" "497-5235")
-    (property "LCSC" "C2687116")
+    (property "LCSC" "C2827654")
     (property "Sheetfile" "ISOCHet.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666")

@@ -1812,7 +1812,7 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 132.334 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2687116" (at 127.254 71.12 0)
+    (property "LCSC" "C2827654" (at 127.254 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DigiKey" "497-5235" (at 127.254 71.12 0)
