@@ -1627,7 +1627,7 @@
     (property "Value" "10k" (at 222.758 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 222.758 77.978 90)
+    (property "Footprint" "Project Library:R_Combined_DIN0207_1608" (at 222.758 77.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.758 76.2 0)
