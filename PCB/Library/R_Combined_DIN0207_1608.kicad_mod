@@ -15,10 +15,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b881bdff-47f9-4fb2-82fe-973b7d6b31ba)
   )
-  (fp_line (start 3.555276 -0.5225) (end 4.064724 -0.5225)
-    (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp ce87f9ee-4bac-45a8-b9c3-d72fde6dec26))
-  (fp_line (start 3.555276 0.5225) (end 4.064724 0.5225)
-    (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp 09571396-b512-402e-b733-7a2bc76a9329))
   (fp_line (start 0.54 -1.37) (end 7.08 -1.37)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 2e70b9cb-d0da-49d1-a1aa-d3013c9c33c1))
   (fp_line (start 0.54 -1.04) (end 0.54 -1.37)
@@ -71,22 +67,6 @@
   (pad "1" smd roundrect (at 2.8975 0) (size 0.975 0.95) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp 9e9b752a-50c9-4a02-a5f8-9fc03ab65d20))
   (pad "2" smd roundrect (at 4.7225 0) (size 0.975 0.95) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp e10a39a8-16b7-496a-9db9-a499f6ab7f44))
   (pad "2" thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp b5d7785e-1c71-4baa-a1ae-6a5a6fd8b46d))
-  (group "" (id e53db392-add9-467a-a646-8a9894f6867f)
-    (members
-      09571396-b512-402e-b733-7a2bc76a9329
-      4106341d-0809-465c-8c8c-4f3de1c0b5f5
-      532d4d7d-70c0-472c-818d-f6fc3324349f
-      75503289-b8a9-41f2-a36b-5d1954c7cf76
-      79a4d59d-4edd-429a-b0af-cb3c9d9cc659
-      7a4a2693-52db-4828-a872-818e5333e6e6
-      9e9b752a-50c9-4a02-a5f8-9fc03ab65d20
-      ccb5a916-4da1-4545-aed0-69aad440702e
-      ce87f9ee-4bac-45a8-b9c3-d72fde6dec26
-      d6b576c0-0ece-41ad-8345-db84e1a02b10
-      e085258c-13c5-41cc-b710-a924524dd5e5
-      e10a39a8-16b7-496a-9db9-a499f6ab7f44
-    )
-  )
   (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
