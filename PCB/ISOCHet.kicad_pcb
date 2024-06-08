@@ -191,7 +191,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -227,7 +227,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/002e2f51-5cac-4992-a6a9-8fb3446d226e")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -424,7 +426,7 @@
 				)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -436,7 +438,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d6a4c064-77ae-4368-97e3-6be11fc93a8f")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files)
@@ -547,7 +551,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -583,7 +587,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/14e04d78-a1c0-4955-a150-49a43cd3b599")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -927,7 +933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -939,7 +945,7 @@
 				)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -975,7 +981,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/4f826cb6-d756-4d1e-b467-40936cd99bad")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1263,6 +1271,7 @@
 			)
 		)
 		(path "/fbf1f70f-b75a-4021-bdf3-10d7a070886d")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1593,7 +1602,7 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1629,7 +1638,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/74ee0d29-c278-4e28-9431-626e41ed0884")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1826,7 +1837,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1839,6 +1850,7 @@
 			)
 		)
 		(path "/1325a808-2258-457a-bac8-d2990a2c2f31")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
@@ -1956,7 +1968,7 @@
 		)
 		(fp_arc
 			(start 6.997236 6.498884)
-			(mid 6.850797 6.85246)
+			(mid 6.850806 6.852455)
 			(end 6.497236 6.998884)
 			(stroke
 				(width 0.05)
@@ -2123,7 +2135,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2159,7 +2171,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/739799ea-4afe-4c9d-9279-12f558b50420")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2427,7 +2441,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2440,6 +2454,7 @@
 			)
 		)
 		(path "/87e9de80-764a-43e3-b463-ec71c5f78cce")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
@@ -2557,7 +2572,7 @@
 		)
 		(fp_arc
 			(start 6.997236 6.498884)
-			(mid 6.850797 6.85246)
+			(mid 6.850806 6.852455)
 			(end 6.497236 6.998884)
 			(stroke
 				(width 0.05)
@@ -2724,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2736,19 +2751,8 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f83e4841-7b8f-4543-9195-28275e419264")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/5e203023-d93c-4d92-936a-e61fc57fa38d")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -2866,7 +2870,7 @@
 		)
 		(fp_arc
 			(start 6.997236 6.498884)
-			(mid 6.850797 6.85246)
+			(mid 6.850806 6.852455)
 			(end 6.497236 6.998884)
 			(stroke
 				(width 0.05)
@@ -3022,7 +3026,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3058,7 +3062,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/fc26cc2a-3b39-4646-9a0b-85f4b2d88f2e")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3253,7 +3259,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3289,7 +3295,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/48a0b297-8c5e-4db7-8599-e4b94987e9c7")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(clearance 0.15)
 		(attr through_hole)
@@ -4131,7 +4139,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4143,19 +4151,8 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2ed2865-e16d-41c5-bd54-ee8300a221fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/5a268991-e9a9-4aa0-9159-806a7642fd07")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
@@ -4273,7 +4270,7 @@
 		)
 		(fp_arc
 			(start 6.997236 6.498884)
-			(mid 6.850797 6.85246)
+			(mid 6.850806 6.852455)
 			(end 6.497236 6.998884)
 			(stroke
 				(width 0.05)
@@ -4388,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4400,7 +4397,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/96cf67a2-2cf8-4042-95be-991b9d0d83a9")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
@@ -4669,7 +4668,7 @@
 		)
 		(fp_arc
 			(start 5.499999 -15.28125)
-			(mid 5.853571 -15.134807)
+			(mid 5.853565 -15.134815)
 			(end 5.999999 -14.78125)
 			(stroke
 				(width 0.05)
@@ -4680,7 +4679,7 @@
 		)
 		(fp_arc
 			(start 5.499999 8.53125)
-			(mid 5.853571 8.677693)
+			(mid 5.853565 8.677685)
 			(end 5.999999 9.03125)
 			(stroke
 				(width 0.05)
@@ -4811,6 +4810,7 @@
 		(property "Value" "BOOT"
 			(at 5.375 0 180)
 			(layer "F.Mask")
+			(hide yes)
 			(uuid "7c16cf16-ef74-4d79-be80-38cb36380546")
 			(effects
 				(font
@@ -4941,7 +4941,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4978,6 +4978,7 @@
 			)
 		)
 		(path "/8778d56f-ba92-42da-b175-689b6189abfb")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5486,7 +5487,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5499,6 +5500,7 @@
 			)
 		)
 		(path "/65830ab1-e644-4fd1-87df-7b17e612055b")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
@@ -5616,7 +5618,7 @@
 		)
 		(fp_arc
 			(start 6.997236 6.498884)
-			(mid 6.850797 6.85246)
+			(mid 6.850806 6.852455)
 			(end 6.497236 6.998884)
 			(stroke
 				(width 0.05)
@@ -5745,7 +5747,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5783,7 +5785,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6afc797e-52d6-406e-aa8b-ab298d68bf82")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5963,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6001,7 +6005,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e549c6a2-4113-4c95-9b2c-190f991d1e46")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6181,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6193,7 +6199,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a7cd6896-c424-462f-9a4b-b7049618ddfc")
+		(sheetname "Root")
 		(sheetfile "ISOCHet.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8159,6 +8167,115 @@
 			(polygon
 				(pts
 					(xy 170.000163 64.467307) (xy 169.828766 64.467307) (xy 169.828766 65.433929) (xy 170.000163 65.433929)
+				)
+			)
+		)
+	)
+	(gr_text "BOOT"
+		(at 133.8 42.25 0)
+		(layer "F.Mask")
+		(uuid "651f8854-c4cd-4530-8d5a-e6eba05949cb")
+		(effects
+			(font
+				(face "Josefin Sans Thin")
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+		(render_cache "BOOT" 0
+			(polygon
+				(pts
+					(xy 132.255563 41.636832) (xy 132.308966 41.643709) (xy 132.357732 41.655173) (xy 132.408766 41.674342)
+					(xy 132.453489 41.699752) (xy 132.495163 41.736236) (xy 132.52493 41.780718) (xy 132.54279 41.8332)
+					(xy 132.548651 41.885683) (xy 132.548744 41.893681) (xy 132.545034 41.944651) (xy 132.532212 41.995484)
+					(xy 132.51023 42.040211) (xy 132.501849 42.052438) (xy 132.469248 42.089132) (xy 132.430065 42.119529)
+					(xy 132.425451 42.121958) (xy 132.431126 42.124307) (xy 132.47756 42.150608) (xy 132.517464 42.1817)
+					(xy 132.540439 42.20509) (xy 132.570707 42.248353) (xy 132.589765 42.296624) (xy 132.597612 42.349904)
+					(xy 132.597837 42.361161) (xy 132.594903 42.411145) (xy 132.584899 42.460287) (xy 132.567795 42.503311)
+					(xy 132.539879 42.546833) (xy 132.504949 42.582938) (xy 132.486462 42.5971) (xy 132.442769 42.622849)
+					(xy 132.394643 42.642148) (xy 132.370935 42.648879) (xy 132.32214 42.658703) (xy 132.272108 42.663992)
+					(xy 132.238067 42.665) (xy 131.89515 42.665) (xy 131.89515 42.475956) (xy 132.098116 42.475956)
+					(xy 132.228297 42.475956) (xy 132.278447 42.471822) (xy 132.309386 42.464232) (xy 132.35375 42.439836)
+					(xy 132.366783 42.426374) (xy 132.386475 42.379983) (xy 132.387788 42.361161) (xy 132.376953 42.311859)
+					(xy 132.362631 42.293506) (xy 132.318771 42.26747) (xy 132.297418 42.261266) (xy 132.24885 42.253517)
+					(xy 132.214131 42.251985) (xy 132.098116 42.251985) (xy 132.098116 42.475956) (xy 131.89515 42.475956)
+					(xy 131.89515 42.056102) (xy 132.098116 42.056102) (xy 132.221214 42.056102) (xy 132.270795 42.048106)
+					(xy 132.310118 42.01971) (xy 132.333423 41.9756) (xy 132.338939 41.936912) (xy 132.328806 41.888043)
+					(xy 132.303035 41.857288) (xy 132.258254 41.836516) (xy 132.207292 41.830666) (xy 132.098116 41.830666)
+					(xy 132.098116 42.056102) (xy 131.89515 42.056102) (xy 131.89515 41.634539) (xy 132.197522 41.634539)
+				)
+			)
+			(polygon
+				(pts
+					(xy 133.315743 41.625929) (xy 133.367263 41.633806) (xy 133.417225 41.646934) (xy 133.465631 41.665314)
+					(xy 133.5119 41.688288) (xy 133.555452 41.7152) (xy 133.596286 41.746051) (xy 133.634403 41.78084)
+					(xy 133.669147 41.818958) (xy 133.69986 41.859792) (xy 133.726544 41.903343) (xy 133.749197 41.949612)
+					(xy 133.767256 41.997926) (xy 133.780155 42.047615) (xy 133.787895 42.098677) (xy 133.790474 42.151113)
+					(xy 133.787895 42.204831) (xy 133.780155 42.256809) (xy 133.767256 42.307046) (xy 133.749197 42.355544)
+					(xy 133.726544 42.401721) (xy 133.69986 42.444998) (xy 133.669147 42.485374) (xy 133.634403 42.52285)
+					(xy 133.596286 42.556922) (xy 133.555452 42.587086) (xy 133.5119 42.613342) (xy 133.465631 42.63569)
+					(xy 133.417225 42.653428) (xy 133.367263 42.666099) (xy 133.315743 42.673701) (xy 133.262666 42.676235)
+					(xy 133.208947 42.673701) (xy 133.156969 42.666099) (xy 133.106732 42.653428) (xy 133.058234 42.63569)
+					(xy 133.012057 42.613342) (xy 132.96878 42.587086) (xy 132.928404 42.556922) (xy 132.890928 42.52285)
+					(xy 132.856871 42.485374) (xy 132.826753 42.444998) (xy 132.800573 42.401721) (xy 132.778332 42.355544)
+					(xy 132.760594 42.307046) (xy 132.747924 42.256809) (xy 132.740322 42.204831) (xy 132.737788 42.151113)
+					(xy 132.947592 42.151113) (xy 132.951027 42.201316) (xy 132.9625 42.252835) (xy 132.972017 42.27934)
+					(xy 132.995244 42.325305) (xy 133.024841 42.366756) (xy 133.040649 42.384364) (xy 133.078865 42.41793)
+					(xy 133.121677 42.444804) (xy 133.142987 42.454951) (xy 133.19195 42.471239) (xy 133.240225 42.478904)
+					(xy 133.269749 42.480108) (xy 133.321639 42.475956) (xy 133.370547 42.4635) (xy 133.392114 42.454951)
+					(xy 133.435735 42.431165) (xy 133.47452 42.400688) (xy 133.490788 42.384364) (xy 133.521898 42.344997)
+					(xy 133.546961 42.301116) (xy 133.55649 42.27934) (xy 133.571987 42.229427) (xy 133.57928 42.180707)
+					(xy 133.580425 42.151113) (xy 133.576991 42.100096) (xy 133.566687 42.051828) (xy 133.556001 42.021175)
+					(xy 133.533133 41.974618) (xy 133.504219 41.932978) (xy 133.488834 41.915418) (xy 133.451688 41.881695)
+					(xy 133.409704 41.854743) (xy 133.388695 41.844588) (xy 133.340447 41.8283) (xy 133.288975 41.820315)
+					(xy 133.264131 41.819431) (xy 133.21513 41.822968) (xy 133.165146 41.834785) (xy 133.139567 41.844588)
+					(xy 133.09523 41.868414) (xy 133.055488 41.899012) (xy 133.038695 41.915418) (xy 133.006596 41.954788)
+					(xy 132.980947 41.999076) (xy 132.971284 42.021175) (xy 132.955944 42.071606) (xy 132.948726 42.121019)
+					(xy 132.947592 42.151113) (xy 132.737788 42.151113) (xy 132.740322 42.098677) (xy 132.747924 42.047615)
+					(xy 132.760594 41.997926) (xy 132.778332 41.949612) (xy 132.800573 41.903343) (xy 132.826753 41.859792)
+					(xy 132.856871 41.818958) (xy 132.890928 41.78084) (xy 132.928404 41.746051) (xy 132.96878 41.7152)
+					(xy 133.012057 41.688288) (xy 133.058234 41.665314) (xy 133.106732 41.646934) (xy 133.156969 41.633806)
+					(xy 133.208947 41.625929) (xy 133.262666 41.623304)
+				)
+			)
+			(polygon
+				(pts
+					(xy 134.508625 41.625929) (xy 134.560145 41.633806) (xy 134.610108 41.646934) (xy 134.658513 41.665314)
+					(xy 134.704782 41.688288) (xy 134.748334 41.7152) (xy 134.789168 41.746051) (xy 134.827285 41.78084)
+					(xy 134.862029 41.818958) (xy 134.892742 41.859792) (xy 134.919426 41.903343) (xy 134.942079 41.949612)
+					(xy 134.960138 41.997926) (xy 134.973037 42.047615) (xy 134.980777 42.098677) (xy 134.983356 42.151113)
+					(xy 134.980777 42.204831) (xy 134.973037 42.256809) (xy 134.960138 42.307046) (xy 134.942079 42.355544)
+					(xy 134.919426 42.401721) (xy 134.892742 42.444998) (xy 134.862029 42.485374) (xy 134.827285 42.52285)
+					(xy 134.789168 42.556922) (xy 134.748334 42.587086) (xy 134.704782 42.613342) (xy 134.658513 42.63569)
+					(xy 134.610108 42.653428) (xy 134.560145 42.666099) (xy 134.508625 42.673701) (xy 134.455548 42.676235)
+					(xy 134.401829 42.673701) (xy 134.349852 42.666099) (xy 134.299614 42.653428) (xy 134.251116 42.63569)
+					(xy 134.204939 42.613342) (xy 134.161662 42.587086) (xy 134.121286 42.556922) (xy 134.08381 42.52285)
+					(xy 134.049753 42.485374) (xy 134.019635 42.444998) (xy 133.993455 42.401721) (xy 133.971214 42.355544)
+					(xy 133.953476 42.307046) (xy 133.940806 42.256809) (xy 133.933204 42.204831) (xy 133.93067 42.151113)
+					(xy 134.140474 42.151113) (xy 134.143909 42.201316) (xy 134.155382 42.252835) (xy 134.164899 42.27934)
+					(xy 134.188126 42.325305) (xy 134.217723 42.366756) (xy 134.233531 42.384364) (xy 134.271747 42.41793)
+					(xy 134.314559 42.444804) (xy 134.335869 42.454951) (xy 134.384832 42.471239) (xy 134.433107 42.478904)
+					(xy 134.462631 42.480108) (xy 134.514522 42.475956) (xy 134.563429 42.4635) (xy 134.584996 42.454951)
+					(xy 134.628618 42.431165) (xy 134.667402 42.400688) (xy 134.68367 42.384364) (xy 134.71478 42.344997)
+					(xy 134.739843 42.301116) (xy 134.749372 42.27934) (xy 134.764869 42.229427) (xy 134.772162 42.180707)
+					(xy 134.773308 42.151113) (xy 134.769873 42.100096) (xy 134.759569 42.051828) (xy 134.748883 42.021175)
+					(xy 134.726015 41.974618) (xy 134.697101 41.932978) (xy 134.681716 41.915418) (xy 134.64457 41.881695)
+					(xy 134.602586 41.854743) (xy 134.581577 41.844588) (xy 134.533329 41.8283) (xy 134.481857 41.820315)
+					(xy 134.457013 41.819431) (xy 134.408012 41.822968) (xy 134.358028 41.834785) (xy 134.332449 41.844588)
+					(xy 134.288112 41.868414) (xy 134.24837 41.899012) (xy 134.231577 41.915418) (xy 134.199478 41.954788)
+					(xy 134.173829 41.999076) (xy 134.164166 42.021175) (xy 134.148827 42.071606) (xy 134.141608 42.121019)
+					(xy 134.140474 42.151113) (xy 133.93067 42.151113) (xy 133.933204 42.098677) (xy 133.940806 42.047615)
+					(xy 133.953476 41.997926) (xy 133.971214 41.949612) (xy 133.993455 41.903343) (xy 134.019635 41.859792)
+					(xy 134.049753 41.818958) (xy 134.08381 41.78084) (xy 134.121286 41.746051) (xy 134.161662 41.7152)
+					(xy 134.204939 41.688288) (xy 134.251116 41.665314) (xy 134.299614 41.646934) (xy 134.349852 41.633806)
+					(xy 134.401829 41.625929) (xy 134.455548 41.623304)
+				)
+			)
+			(polygon
+				(pts
+					(xy 135.081298 41.634539) (xy 135.77568 41.634539) (xy 135.77568 41.830666) (xy 135.525087 41.830666)
+					(xy 135.525087 42.665) (xy 135.322121 42.665) (xy 135.322121 41.830666) (xy 135.081298 41.830666)
 				)
 			)
 		)
