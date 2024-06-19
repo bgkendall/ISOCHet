@@ -2293,7 +2293,7 @@
 				)
 			)
 		)
-		(symbol "Project Library:MCU_CM552E_MSOP-10"
+		(symbol "Project Library:MCU_CH552E_MSOP-10"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2340,7 +2340,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCU_CM552E_MSOP-10_0_1"
+			(symbol "MCU_CH552E_MSOP-10_0_1"
 				(rectangle
 					(start -8.636 10.16)
 					(end 9.144 -2.54)
@@ -2353,7 +2353,7 @@
 					)
 				)
 			)
-			(symbol "MCU_CM552E_MSOP-10_1_1"
+			(symbol "MCU_CH552E_MSOP-10_1_1"
 				(text "CH552E"
 					(at 0 11.176 0)
 					(effects
@@ -7051,7 +7051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:MCU_CM552E_MSOP-10")
+		(lib_id "Project Library:MCU_CH552E_MSOP-10")
 		(at 228.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
